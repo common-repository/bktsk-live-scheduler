@@ -1,0 +1,101 @@
+$sunday: #f00;
+$saturday: #00f;
+$bg: #ffe;
+$today: #dfd;
+$past: #ddd;
+
+.bktsk-live-calendar-header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+
+  .back {
+    flex: 1;
+    text-align: left;
+  }
+
+  .center {
+    flex: 5;
+    text-align: center;
+  }
+
+  .next {
+    flex: 1;
+    text-align: right;
+  }
+}
+
+.bktsk-live-calendar {
+  display: table;
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
+
+  .row {
+    display: table-row;
+
+    &.weekday {
+      text-align: center;
+    }
+
+    .day {
+      display: table-cell;
+      border: solid 1px #999;
+
+      &.today {
+        background-color: $today;
+      }
+
+      &.past {
+        background-color: $past;
+      }
+    }
+
+    .wday-0,
+    .wday-7 {
+      .date-num,
+      .day-week {
+        color: $sunday;
+      }
+    }
+
+    .wday-6 {
+      .date-num,
+      .day-week {
+        color: $saturday;
+      }
+    }
+
+    &.date {
+      .last-month,
+      .next-month,
+      .this-month {
+        .date-num {
+          margin: 0 5px;
+        }
+
+        a {
+          text-decoration: none;
+        }
+
+        .live {
+          font-size: 12px;
+          margin: 5px 0;
+          padding: 5px;
+          background-color: $bg;
+
+          &.canceled {
+            text-decoration: line-through;
+          }
+        }
+      }
+
+      .last-month,
+      .next-month {
+        .date-num {
+          opacity: 0.5;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,376 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BKTSK Live Scheduler\n"
+"POT-Creation-Date: 2019-09-27 18:07+0900\n"
+"PO-Revision-Date: 2019-09-27 18:09+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: plugin.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: lib/add-post-type.php:21
+msgctxt "post type general name"
+msgid "YouTube Live Schedules"
+msgstr "YouTube ライブ スケジュール"
+
+#: lib/add-post-type.php:22
+msgctxt "post type singular name"
+msgid "YouTube Live Schedule"
+msgstr "YouTube ライブ スケジュール"
+
+#: lib/add-post-type.php:23
+msgctxt "admin menu"
+msgid "YT Live"
+msgstr "YT Live"
+
+#: lib/add-post-type.php:24
+msgctxt "add new on admin bar"
+msgid "YT Live"
+msgstr "YT Live"
+
+#: lib/add-post-type.php:25
+msgctxt "Live"
+msgid "Add New"
+msgstr "新規追加"
+
+#: lib/add-post-type.php:26
+msgid "Add New Live"
+msgstr "新しいライブ予定を追加する"
+
+#: lib/add-post-type.php:27
+msgid "New Live"
+msgstr "新しいライブ予定"
+
+#: lib/add-post-type.php:28
+msgid "Edit Live"
+msgstr "ライブ予定を編集"
+
+#: lib/add-post-type.php:29
+msgid "View Live"
+msgstr "ライブ予定を表示"
+
+#: lib/add-post-type.php:30
+msgid "All Live Schedules"
+msgstr "すべてのライブスケジュール"
+
+#: lib/add-post-type.php:31
+msgid "Search Live Schedules"
+msgstr "ライブスケジュールを検索"
+
+#: lib/add-post-type.php:32
+msgid "Parent Lives:"
+msgstr "親のライブ:"
+
+#: lib/add-post-type.php:33
+msgid "No Live found."
+msgstr "ライブが見つかりませんでした。"
+
+#: lib/add-post-type.php:34
+msgid "No Live found in Trash."
+msgstr "ゴミ箱にライブは見つかりませんでした。"
+
+#: lib/add-post-type.php:70
+msgid "Live Date/Time"
+msgstr "ライブ日時"
+
+#: lib/add-post-type.php:254
+msgid "Live Schedule (time fixed)"
+msgstr "ライブスケジュール (時間確定済)"
+
+#: lib/add-post-type.php:255
+msgid "Canceled Live Schedule (time fixed)"
+msgstr "キャンセルされたライブスケジュール (時間確定済)"
+
+#: lib/add-post-type.php:256
+msgid "Live Date (time not fixed)"
+msgstr "ライブ日付 (時間未定)"
+
+#: lib/add-post-type.php:257
+msgid "Canceled Live Date (time not fixed)"
+msgstr "キャンセルされたライブ日付 (時間未定)"
+
+#: lib/add-post-type.php:258
+msgid "Live Day Off (decided not to live)"
+msgstr "休日 (配信しないことが決まっている日)"
+
+#: lib/add-post-type.php:264
+msgid "Live Schedule"
+msgstr "ライブスケジュール"
+
+#: lib/add-post-type.php:279 lib/add-post-type.php:309
+#: lib/add-post-type.php:332
+msgid "to"
+msgstr "～"
+
+#: lib/add-post-type.php:301
+msgid "Live Date"
+msgstr "ライブ予定日"
+
+#: lib/add-post-type.php:324
+msgid "Date of Day Off"
+msgstr "ライブ休日"
+
+#: lib/add-post-type.php:346
+msgid "TimeZone"
+msgstr "タイムゾーン"
+
+#: lib/add-post-type.php:347
+msgid "This can be changed at settings page from dashboard."
+msgstr "これは、ダッシュボードの設定ページで変更できます。"
+
+#: lib/add-post-type.php:353
+msgid "URL"
+msgstr "URL"
+
+#: lib/add-post-type.php:501
+msgid "Live Start"
+msgstr "ライブ開始"
+
+#: lib/add-post-type.php:502
+msgid "Live End"
+msgstr "ライブ終了"
+
+#: lib/add-post-type.php:503 lib/add-post-type.php:579
+msgid "Live URL"
+msgstr "ライブURL"
+
+#: lib/add-taxonomy.php:22
+msgid "Live Categories"
+msgstr "ライブカテゴリ"
+
+#: lib/add-taxonomy.php:23
+msgid "Live Category"
+msgstr "ライブカテゴリ"
+
+#: lib/add-taxonomy.php:25
+msgid "All live categories"
+msgstr "すべてのライブカテゴリ"
+
+#: lib/add-taxonomy.php:26
+msgid "Add new live category"
+msgstr "新しいライブカテゴリを追加する"
+
+#: lib/class-bktskytscheduleradminpage.php:29
+#: lib/class-bktskytscheduleradminpage.php:45
+msgid "YouTube Live Scheduler Settings"
+msgstr "YouTube ライブ スケジューラの設定"
+
+#: lib/class-bktskytscheduleradminpage.php:30
+msgid "YT Live Settings"
+msgstr "YT ライブ設定"
+
+#: lib/class-bktskytscheduleradminpage.php:71
+msgid "Slugs"
+msgstr "スラッグ"
+
+#: lib/class-bktskytscheduleradminpage.php:79
+msgid "Live post slug"
+msgstr "ライブ投稿のスラッグ"
+
+#: lib/class-bktskytscheduleradminpage.php:88
+msgid "Live category slug"
+msgstr "ライブカテゴリのスラッグ"
+
+#: lib/class-bktskytscheduleradminpage.php:97
+msgid "Live iCalendar slug"
+msgstr "ライブのiCalendar用スラッグ"
+
+#: lib/class-bktskytscheduleradminpage.php:106
+msgid "iCalendar Info"
+msgstr "iCalendar情報"
+
+#: lib/class-bktskytscheduleradminpage.php:114
+msgid "iCalendar title"
+msgstr "iCalendarタイトル"
+
+#: lib/class-bktskytscheduleradminpage.php:123
+msgid "iCalendar Description"
+msgstr "iCalendar概要"
+
+#: lib/class-bktskytscheduleradminpage.php:132
+msgid "iCalendar Tags"
+msgstr "iCalendar用タグ"
+
+#: lib/class-bktskytscheduleradminpage.php:140
+msgid "Canceled"
+msgstr "キャンセル"
+
+#: lib/class-bktskytscheduleradminpage.php:149
+msgid "Time not fixed"
+msgstr "時間未定"
+
+#: lib/class-bktskytscheduleradminpage.php:158
+msgid "Day off"
+msgstr "休日"
+
+#: lib/class-bktskytscheduleradminpage.php:167
+msgid "Calendar display settings"
+msgstr "カレンダー表示設定"
+
+#: lib/class-bktskytscheduleradminpage.php:175
+msgid "Week start"
+msgstr "週の始め"
+
+#: lib/class-bktskytscheduleradminpage.php:184
+msgid "Calendar header month format"
+msgstr "カレンダーヘッダーの月表示フォーマット"
+
+#: lib/class-bktskytscheduleradminpage.php:248
+msgid ""
+"Fields of this section will be used for URL slugs. All fields will be "
+"urlencoded."
+msgstr ""
+"このセクションのフィールドは、URLのスラッグとして利用されます。すべての"
+"フィールドはURLエンコードされて保存されます。"
+
+#: lib/class-bktskytscheduleradminpage.php:250
+msgid "After changing this section, permalink update is strongly recommended"
+msgstr ""
+"このセクションで変更を行った後は、パーマリンク設定の画面で変更を保存する事を"
+"強くおすすめします"
+
+#: lib/class-bktskytscheduleradminpage.php:262
+msgid ""
+"This will be used for post type slug of the lives. \"live_schedule\" is the "
+"default. (When this field is empty.)"
+msgstr ""
+"ライブ用の投稿タイプに使われるスラッグです。デフォルトは \"live_schedule\" "
+"です。（空欄にした場合）"
+
+#: lib/class-bktskytscheduleradminpage.php:275
+msgid ""
+"This will be used for taxonomy slug of the lives. \"live_category\" is the "
+"default. (When this field is empty.)"
+msgstr ""
+"ライブ用の分類に使われるスラッグです。デフォルトは \"live_category\" です。"
+"（空欄にした場合）"
+
+#: lib/class-bktskytscheduleradminpage.php:288
+msgid ""
+"This will be used for iCalendar URL slug. \"bktsk_yt_live\" is the default. "
+"(When this field is empty.)"
+msgstr ""
+"ライブのiCalendarアクセス用に使われるスラッグです。デフォルトは "
+"\"bktsk_yt_live\" です。（空欄にした場合）"
+
+#: lib/class-bktskytscheduleradminpage.php:296
+msgid "Fields of this section will be used on the iCalendar."
+msgstr "このセクションのフィールドは、iCalendarの情報として使われます。"
+
+#: lib/class-bktskytscheduleradminpage.php:323
+msgid ""
+"Fields of this section will be used just before title (VEVENT/SUMMARY) on "
+"the iCalendar."
+msgstr ""
+"このセクションのフィールドは、iCalendarのタイトル部分(VEVENT/SUMMARY)の直前"
+"に追加されます。"
+
+#: lib/class-bktskytscheduleradminpage.php:325
+msgid "When none given, nothing will be added."
+msgstr "何も指定しなければ、何も追加されません。"
+
+#: lib/class-bktskytscheduleradminpage.php:362
+msgid ""
+"Fields of this section will be used for displaying calendar using the "
+"shortcode"
+msgstr ""
+"このセクションはショートコードを利用したカレンダーの表示に利用されます"
+
+#: lib/class-bktskytscheduleradminpage.php:364
+msgid "The shortcode is [bktsk-live-calendar] ."
+msgstr "ショートコードは [bktsk-live-calendar] です。"
+
+#: lib/class-bktskytscheduleradminpage.php:373
+msgid "Sunday"
+msgstr "日曜日"
+
+#: lib/class-bktskytscheduleradminpage.php:377
+msgid "Monday"
+msgstr "月曜日"
+
+#: lib/class-bktskytscheduleradminpage.php:392
+msgid ""
+"This will be used for the header of calendar displayed by shortcode. The "
+"format is as same as WordPress date format."
+msgstr ""
+"この項目はショートコードを利用したカレンダー表示でヘッダーに利用されます。"
+"フォーマット表記はWordPressの日付フォーマットと同じです。"
+
+#: lib/class-bktskytscheduleradminpage.php:394
+msgid "If none given, this will the format will be <code>Y-m</code>."
+msgstr "何も指定しない場合には <code>Y-m</code> になります。"
+
+#: lib/class-bktskytschedulershortcode.php:32
+#: lib/class-bktskytschedulershortcode.php:39
+msgid "Sun"
+msgstr "日"
+
+#: lib/class-bktskytschedulershortcode.php:33
+msgid "Mon"
+msgstr "月"
+
+#: lib/class-bktskytschedulershortcode.php:34
+msgid "Tue"
+msgstr "火"
+
+#: lib/class-bktskytschedulershortcode.php:35
+msgid "Wed"
+msgstr "水"
+
+#: lib/class-bktskytschedulershortcode.php:36
+msgid "Thu"
+msgstr "木"
+
+#: lib/class-bktskytschedulershortcode.php:37
+msgid "Fri"
+msgstr "金"
+
+#: lib/class-bktskytschedulershortcode.php:38
+msgid "Sat"
+msgstr "土"
+
+#: lib/class-bktskytschedulershortcode.php:234
+msgid "Previous"
+msgstr "前の月"
+
+#: lib/class-bktskytschedulershortcode.php:246
+msgid "Next"
+msgstr "次の月"
+
+#: lib/class-bktskytschedulershortcode.php:359
+#: lib/class-bktskytschedulershortcode.php:363
+msgid "All day"
+msgstr "終日"
+
+#: lib/class-bktskytschedulershortcode.php:377
+msgid "None"
+msgstr "なし"
+
+#. Plugin Name of the plugin/theme
+msgid "BKTSK Live Scheduler"
+msgstr "BKTSK Live Scheduler"
+
+#. Description of the plugin/theme
+msgid "Show Live Schedule in WordPress"
+msgstr "WordPressでライブ配信のスケジュールを表示させるプラグイン"
+
+#. Author of the plugin/theme
+msgid "SASAGAWA Kiyoshi"
+msgstr "SASAGAWA Kiyoshi"
+
+#. Author URI of the plugin/theme
+msgid "https://kent-and-co.com"
+msgstr "https://kent-and-co.com"

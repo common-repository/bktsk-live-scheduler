@@ -1,0 +1,13 @@
+.ftpconfig
+.ftpconfig.cson
+.ftpignore
+id_rsa
+.DS_Store
+.git
+deploy
+assets
+local-assets
+.gitignore
+.svnivnore
+*.zip
+/node_modules
